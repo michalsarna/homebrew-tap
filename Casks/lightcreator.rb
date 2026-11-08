@@ -1,9 +1,9 @@
 cask "lightcreator" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.8.1"
-  sha256 arm:   "2e5e4b97988293730ddf4f2db79ed98887759e3a83b48c59392e6e90c9ce97ab",
-         intel: "3eda093c3d44ad8cf0a32c654ec28725ee2dc3846214a855a49cf862b654e113"
+  version "0.8.2"
+  sha256 arm:   "79ebdcc7d9468abbec9b51075d783eb36e4dc47ae07c1b01887c187498baaff8",
+         intel: "644bba302138d693bddb8c6f4bf3b5f3a2a68b20b83154a2b773fe01967da999"
 
   url "https://github.com/michalsarna/LightCreator/releases/download/v#{version}/lightcreator-v#{version}-macos-#{arch}.dmg"
   name "LightCreator"
