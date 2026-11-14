@@ -1,9 +1,9 @@
 cask "basecreator" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.93.0"
-  sha256 arm:   "a137e9ef173c5616bd8794d3120793f8677f1884d40e53fdefa38b7e0808cfb7",
-         intel: "ff50523657c26e2f0479a674e98d83aaf17f9cd7250ab1f763064a5835ce4497"
+  version "2.0.0"
+  sha256 arm:   "95699df8efd4e556a41f6e14171acb5565ebeff9ae42b5a8081146302b28be91",
+         intel: "3f7c1adab00febc61760420e991f2f78603fd315a56e901fb5e067b5a03ca681"
 
   url "https://github.com/michalsarna/baseCreator/releases/download/v#{version}/basecreator-v#{version}-macos-#{arch}.dmg"
   name "BaseCreator"
