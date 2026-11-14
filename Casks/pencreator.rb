@@ -1,9 +1,9 @@
 cask "pencreator" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.9.0"
-  sha256 arm:   "0182607da09c4be89d3ecc9cc6b76208fb1ee3c9f7a387dbf66f265603949490",
-         intel: "10b66eeefc30db0df2f4bc6f65111f69ab06cd0bbb779976719104dc87a236ad"
+  version "0.9.1"
+  sha256 arm:   "70a278bfbfb5eceda07423b18b590d608aff4a711cffd041125d1fc8a7535a8f",
+         intel: "08ba6266b6e2c7409c8dd0d5fc7981739c6cb2f7894270ad11ef310dd6a35135"
 
   url "https://github.com/michalsarna/PenCreator/releases/download/v#{version}/pencreator-v#{version}-macos-#{arch}.dmg"
   name "PenCreator"
