@@ -1,9 +1,9 @@
 cask "millcreator" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.9.5"
-  sha256 arm:   "eed7ddedb7956a7f0ed9588a8609d27a5735c7f4b81596c0128ead49f37e99ac",
-         intel: "13b7ec4d582350cb5a348a40707ac74452921887792080692d952ffabe9a63e4"
+  version "0.9.6"
+  sha256 arm:   "06e5d6c45e675730882b824253aba8ab0217b1d27c37b073497c445010191cf1",
+         intel: "6bc38ea701d53b94ebbfab02bebb5838b9120fad263c5b24ec9d1f9b039c17b6"
 
   url "https://github.com/michalsarna/MillCreator/releases/download/v#{version}/millcreator-v#{version}-macos-#{arch}.dmg"
   name "MillCreator"
